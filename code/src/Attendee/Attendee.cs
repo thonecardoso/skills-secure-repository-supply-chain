@@ -11,6 +11,7 @@ namespace Attendees
         {
             string destFileName = Path.Combine(destDirectory, entry.FullName);
             entry.ExtractToFile(destFileName);
+            Console.WriteLine("ABC");
         }
         
         public bool AddAttendee(string added)
